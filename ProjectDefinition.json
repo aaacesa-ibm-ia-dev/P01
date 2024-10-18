@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/schema#",
+  "$id": "http://www.ibm.com/dba/solutions/solution1/P01/ProjectDefinition.json",
+  "title": "Prueba01",
+  "ba_description": "",
+  "ba_type": "content",
+  "ba_repoPrimaryKey": "P01",
+  "ba_expectedDocTypes": 0,
+  "ba_id": "82311a21-491c-41ae-8b0a-61d4870483bc",
+  "ba_dataDefinitions": [],
+  "ba_contentDefinitions": [
+    {
+      "$ref": "CD_UtilityBill.json",
+      "title": "Utility Bill",
+      "caDocTypeId": "a2827178-33da-403b-aaa8-b0bb3b820959"
+    },
+    {
+      "$ref": "CD_BillOfLading.json",
+      "title": "Bill of Lading",
+      "caDocTypeId": "63842cbd-c858-4a5d-955c-7825edb7da25"
+    },
+    {
+      "$ref": "CD_Invoice.json",
+      "title": "Invoice",
+      "caDocTypeId": "b65d6596-71e0-4def-92e4-fc5e04ff4e66"
+    }
+  ],
+  "ba_caDefinitions": "",
+  "ba_caProjectDescriptor": "2e002a6a-f3b6-4067-baad-fb5698196cb6",
+  "ba_snapshotName": "",
+  "ba_versionId": ""
+}
